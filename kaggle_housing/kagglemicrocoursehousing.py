@@ -7,13 +7,13 @@ from sklearn.tree import DecisionTreeRegressor
 
 # Set up code checking
 import os
-print(os.getcwd())
+print('Current WD:' + os.getcwd())
 # if not os.path.exists("../input/train.csv"):
 #    os.
 #    os.symlink("../input/home-data-for-ml-course/test.csv", "../input/test.csv")
 
 # Path of the file to read. We changed the directory structure to simplify submitting to a competition
-iowa_file_path = '.\kaggle_housing\input\train.csv'
+iowa_file_path = 'C:\\Users\\SOMES\\OneDrive\\Documents\\GitHub\\py3tutorials\\kaggle_housing\\input\\train.csv'
 # C:\Users\SOMES\OneDrive\Documents\GitHub\py3tutorials\kaggle_housing\input\train.csv
 
 home_data = pd.read_csv(iowa_file_path)
